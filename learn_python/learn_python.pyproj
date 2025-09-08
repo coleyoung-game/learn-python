@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7e499cec-2d89-44b7-ace5-f557b3a78013</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>learn_pyclass.py</StartupFile>
+    <StartupFile>module_main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,12 @@
   <ItemGroup>
     <Compile Include="learn_pyclass.py" />
     <Compile Include="learn_python.py" />
+    <Compile Include="module_1.py" />
+    <Compile Include="modules\module_2.py" />
+    <Compile Include="module_main.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="modules\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
