@@ -1,19 +1,14 @@
-ï»¿class FourCal:
-
-    # í´ë˜ìŠ¤ ë³€ìˆ˜(class variable)
-    # í´ë˜ìŠ¤ ë³€ìˆ˜ë³´ë‹¤ ê°ì²´ ë³€ìˆ˜ë¥¼ ì‚¬ìš©í•˜ëŠ” ë¹„ìœ¨ì´ ë” ë†’ë‹¤ê³  í•œë‹¤.
-    number = 0
-
-    # ìƒì„±ì(constructor)
-    # selfëŠ” ê°ì²´ ë³€ìˆ˜(instance variable) -> ê°’ ë³€ê²½ ë¶ˆê°€
-    # ê°ì²´ì˜ ê³ ìœ í•œ ì†ì„±ì„ ê´€ë¦¬í•˜ëŠ”ë° ë§ì´ ì‚¬ìš© ë¨
+class FourCal:
+    # »ı¼ºÀÚ(constructor)
+    # self´Â °´Ã¼ º¯¼ö(instance variable) -> °ª º¯°æ ºÒ°¡
+    # °´Ã¼ÀÇ °íÀ¯ÇÑ ¼Ó¼ºÀ» °ü¸®ÇÏ´Âµ¥ ¸¹ÀÌ »ç¿ë µÊ
     def __init__(self, first, second):
         self.first = first
         self.second = second
     def setdata(self, first, second):
        self.first = first
        self.second = second
-    # í´ë˜ìŠ¤ë‚´ ë©”ì„œë“œ êµ¬í˜„ì‹œ ë§¤ê°œë³€ìˆ˜ì— ê°ì²´ ë³€ìˆ˜ë¥¼ ë°˜ë“œì‹œ ì¶”ê°€í•´ì•¼ í•œë‹¤.
+    # Å¬·¡½º³» ¸Ş¼­µå ±¸Çö½Ã ¸Å°³º¯¼ö¿¡ °´Ã¼ º¯¼ö¸¦ ¹İµå½Ã Ãß°¡ÇØ¾ß ÇÑ´Ù.
     def add(self):
         result = self.first + self.second
         return result
